@@ -1,0 +1,272 @@
+
+.main-container{
+    margin-top: 3.125rem;
+}
+
+
+
+.header{ 
+    color: white;
+    margin-top: 6.25rem;
+    /* border: 1px solid red; */
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.intro{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 0rem;
+}
+
+.smaller{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.02em;
+    color: var(--light_gold);
+}
+
+.smaller span{
+    color: var(--gold);
+}
+.bigger{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    /* line-height: 130.88%; */
+    /* or 39px */
+    margin:0;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gold);
+    position: relative;
+}
+
+.bigger::after{ 
+    content: "";
+    position: absolute;
+    left:20%; 
+    right:-15%; 
+    top:60%; 
+    bottom:10%; 
+    background-color: var(--underline);
+    
+}
+.bigger::before{ 
+    content: "";
+    position: absolute;
+    left:105%; 
+    width: 1rem; 
+    top:55%; 
+    height:1rem; 
+    background-color: var(--gold);
+    border-radius: 50%;
+    transform: scale(0.4);
+    
+}
+
+
+.menu{
+    width: 25rem;
+    display: flex; 
+    justify-content: space-between ;
+    align-items: flex-start;
+}
+
+.links{ 
+    padding: 0.625rem;
+    text-decoration: none;
+    color: var(--gold);
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    transition: 150ms ease-in-out;
+    position: relative;
+}
+
+.links::before{ 
+    content: "";
+    position: absolute;
+    left:50%;
+    right:50%;
+    top:100%;
+    bottom:-5%;
+    background-color: var(--gold);
+    transition: 150ms ease-in-out;
+
+
+}
+
+.links:hover::before, .links:focus::before{ 
+    transform: scaleX(100%);
+    left:15%;
+    right:15%;
+
+}
+
+.links span{
+    color: var(--gray);
+}
+
+.links:focus, .links:hover {
+    color: var(--gray)
+}
+
+.links:focus, .links:hover  span{
+    color: var(--gold)
+}
+
+
+/* Page not found  start*/
+.page-not-found{ 
+    width: 100%;
+    color: white; 
+    font-size: 3.125rem;
+    margin: 9% auto;
+}
+.page-not-found p { 
+    font-size: 1rem;
+}
+
+/* Page not found end */
+
+
+/* start of the contact comp */
+.icons{ 
+    height:9.375rem ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.icons img{ 
+    transform: scale(1.15);
+}
+
+
+/* who am I page start */
+
+.whoami-container{
+    color: var(--gray);
+    padding-left: 3.125rem;
+    display: flex; 
+    justify-content: space-around;
+    
+}
+
+.code-container{
+    position: relative;
+
+}
+.code-container::before{
+    content: "";
+    position: absolute;
+    left:-3.125rem; 
+    right:calc(100% + 3.063rem);
+    top:23%;
+    bottom:0%; 
+    background-color: var(--gold);
+
+}
+
+.code-container::after{
+    content: "";
+    position: absolute;
+    left:-3.25rem; 
+    right:calc(100% + 3rem);
+    top:10%;
+    height: 4px;
+    background: var(--gold);
+    box-shadow: 0px 0px 20px 7px var(--gold);
+    border-radius: 50px;
+
+
+
+}
+
+.code-inner{ 
+    padding-left: 1.25rem;
+    border-left: 0.019rem solid var(--gray) ;
+}
+
+.code-container span{
+    color: var(--white);
+}
+
+.cs, .cu{ 
+    position: relative;
+    color: var(--gray) !important;
+}
+
+.cu::after, .cs::after{ 
+    content: "";
+    position: absolute;
+    left:0%; 
+    right:-15%; 
+    top:60%; 
+    bottom:10%; 
+    background-color: var(--underline);
+}
+
+
+.bio-container{ 
+    width: 500px;
+    position: relative;
+    margin-top: 50px ;
+
+}
+
+.bio-container::before { 
+    content: "";
+    position: absolute;
+    left:-3.125rem; 
+    right:calc(100% + 3.063rem);
+    top:3%;
+    bottom:3%; 
+    background-color: var(--gold);
+}
+/* who am I page end */
+
+
+/* main div from projects */
+.main{ 
+    display: flex; 
+}
+
+
+
+.pro-left { 
+    background: #748297;
+    border: 1px solid #FFD173;
+    width: 31.25rem;
+    height: 18.75rem;
+    position: relative;
+    
+}
+
+.pro-left::before { 
+    content: "";
+    /* background:none; */
+    border: 1px solid #748297;
+    position: absolute;
+    left: 10%; 
+    top: 10%;
+    right: calc( 0% - 1rem); 
+    z-index: -1;
+    bottom: calc(0% - 1rem); 
+
+
+    
+}
+
+.pro-right{
+    border: 1px solid red;
+    margin-left: 3rem ;
+}
