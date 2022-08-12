@@ -11,8 +11,7 @@ export default function Contacts() {
             <a href="https://github.com/bereket-molla"><img src={Github} alt="" /></a>
             <a href="https://twitter.com"><img src={Twitter} alt="" /></a>
             <a href="mailto: bam2243@columbia.edu"><img src={Gmail} alt="" /></a>
-            
-            
+
         </div>
     
   )

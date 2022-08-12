@@ -3,15 +3,32 @@ import Slider from './Slider'
 import './Style.css'
 import project from './projects.json'
 
+
+
 export default function Projects() {
+
+ 
   let obj = project.projects
-  {Object.values(obj).map((value, index) => {
-    return (
-      <div className="project-main-container" key = {index}>
-        <Slider val = {value}  />
+  return (
+
+      <div className="project-main-container" >
+        {
+          Object.values(obj).map((value, index) => {
+            // console.log(value.title)
+            return <Slider data = {value}  key = {index}/>
+          })
+        }
+        {/* <div className="pagi">
+        {
+          Object.values(obj).map((value, index) => {
+            // console.log(value.title)
+            return <Slider data = {value}  key = {index}/>
+          })
+        }
+        </div> */}
       </div>
-    );
-  })}
+
+  );
   
 
 }

@@ -1,0 +1,19 @@
+{
+    "education": ["education", 
+                "n:Columbia University in the City of New York", 
+                  "n:BA in Computer Science and Math", 
+                  "n:GPA: 3.845",
+                  "s:relevant course work",
+                  "l:Data·Structures ", "l:Analysis·of·Algorithms ", "l:Fundamentals·of·Computing·System(Low·level·design) ",  "l:Advanced·Programming ","l:Linear·Algebra·and·Probability ",
+                  "s:expected year of graduation: 2025"
+            ],
+
+    "experience": ["experience",
+                "n:Columbia University in the City of New York", 
+                "n:BA in Computer Science and Math", 
+                "n:GPA: 3.845",
+                "s:relevant course work",
+                ["Data Structures", "Analysis of Algorithms", "Fundamentals of Computing System(Low level design)", "Data Structures", "Advanced Programming","Linear Algebra and Probability"],
+                "s:expected year of graduation: 2025"
+          ]
+}

@@ -57,7 +57,7 @@ export default function Header() {
             <Link className = "links" onClick={() => changeText('whoami')} to="whoami">{"{"}<span>whoami</span>{"}"}</Link>
             <Link className = "links" onClick={() => changeText('projects')} to="projects">{"{"}<span>projects</span>{"}"}</Link>
             <Link className = "links" onClick={() => changeText('resume')} to="resume">{"{"}<span>resume</span>{"}"}</Link>
-            <Link className = "links" onClick={() => changeText('blogs')} to="blogs">{"{"}<span>blogs</span>{"}"}</Link>
+            {/* <Link className = "links" onClick={() => changeText('blogs')} to="blogs">{"{"}<span>blogs</span>{"}"}</Link> */}
         </div>
     </div>
   )

@@ -2,31 +2,35 @@
     "projects": [
         {
             "title" : "verxion",
-            "image": "./images/verxion.heic",
+            "image": "../images/verxion.png",
             "discription" : "This is a simple program that is written as an experiment to reimplement the basic features of git with the intentions of understanding git-internals. verxion works like a containing folder that is used to hold projects people are working on. Files of the projects are simply added in the main(root) folder of the project and the program will be able to track multiple versions of a program.",
-            "liveDemo": "It is a command line interface.", 
-            "githubLink": "https://github.com/bereket-molla/verxion"
+            "liveDemo": "", 
+            "githubLink": "https://github.com/bereket-molla/verxion",
+            "techs": ["java", "css"]
         }, 
         {
             "title" : "Columbia Univesity Course Rating",
-            "image": "verxion",
+            "image": "../images/git-in-terminal.png",
             "discription" : "",
             "liveDemo": "", 
-            "githubLink": ""
+            "githubLink": "",
+            "techs": ["javascript", "html", "css", "react"]
         }, 
         {
             "title" : "",
-            "image": "",
+            "image": "../images/git-in-terminal.png",
             "discription" : "",
             "liveDemo": "", 
-            "githubLink": ""
+            "githubLink": "",
+            "techs": ["javascript", "html", "css", "react"]
         }, 
         {
             "title" : "",
-            "image": "",
+            "image": "../images/git-in-terminal.png",
             "discription" : "",
             "liveDemo": "", 
-            "githubLink": ""
+            "githubLink": "",
+            "techs": ["javascript", "html", "css", "react"]
         }
     ]
 }
