@@ -14,6 +14,7 @@
     /* top: 0rem; */
     background-color: var(--background);
     z-index: 100;
+    /* position: relative; */
     
 }
 
@@ -83,7 +84,7 @@
     align-items: flex-start;
 }
 
-.links{ 
+.links, .menu-icon{ 
     padding: 10px;
     text-decoration: none;
     color: var(--gold);
@@ -94,6 +95,10 @@
     line-height: 16px;
     transition: 150ms ease-in-out;
     position: relative;
+}
+.menu-icon{
+    display: none;
+   
 }
 
 .links::before{ 
@@ -222,11 +227,13 @@
 
 
 .bio-container{ 
-    width: 31.25rem;
+    max-width: 31.25rem;
     position: relative;
     margin-top: 3.125rem ;
 
 }
+
+
 
 .bio-container::before { 
     content: "";
@@ -265,8 +272,9 @@
 
 .pro-left { 
     background: #748297;
-    border: 0.0187rem solid #FFD173;
-    min-width: 500px;
+    outline: 1px solid var(--gold);
+    box-shadow: 0px 0px 3px 1px var(--light_gold);
+    width: 500px;
     max-width:  500px;
     height: 300px;
     position: relative;   
@@ -340,6 +348,7 @@
     font-size: 0.875rem;
     line-height: 1.125rem;
     color: var(--gray);
+    max-width: 500px;
 
    
 }
@@ -470,11 +479,104 @@
     
 }
 
+.whoami-container .left{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1250px ) {
+    .icons{
+        display: none;
+    }
+   
+  }
+
+@media only screen and (max-width: 900px ) {
+    
+    .main{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    
+    .resume-comp{
+        flex-direction: column;
+       
+    }
+    .res-title{ 
+        text-decoration: underline;
+    }
+    .resume-right{ 
+        padding-left: 2em;
+    }
+    
+    .whoami-container .right{ 
+        transform: scale(0.5);
+    }
+   
+
+}
+
+@media only screen and (max-width: 720px ) {
+    .whoami-container .right{
+        display: none;
+    }
+    
+ 
+    
+  }
+@media only screen and (max-width: 650px ) {
+    .pro-left{
+        width: 350px !important;
+    }
+    
+    .main{
+        width: 100%;
+    }
+    .header{
+        flex-direction: column;
+    }
+
+    .menu{
+        margin:10px 0px;
+        width: 350px;
+    }
+    .menu-icon{
+        display:inline;  
+
+    }
+
+    .resume-right{
+        border-left: 0.5px solid var(--light_gold)
+    }
+    
+
+
+    .pro-right{
+        width: 80%;
+        margin-top: 1em;
+        padding-left: 1em;
+        border-left: 0.5px solid var(--light_gold);
+        margin-left: 0px;
+    }
+
+  }
 
 
 
-@media only screen and (max-width: 37.5rem) {
-    body {
-      /* background-color: lightblue; */
+@media only screen and (max-width: 500px ) {
+    /* .pro-left{
+       width:20px;
+    } */
+    .bio-container p {
+        width: 300px ;
+    }
+   
+    .resume-container{
+        padding: 0;
     }
   }
+
+
+  

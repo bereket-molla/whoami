@@ -25,7 +25,7 @@ export default function Slider({data}) {
   return (
       <div className="main" data-aos = "zoom-in">
         <div className="pro-left">
-            {/* <img className = "project-image" src={image} alt=" Not Found" /> */}
+            <img className = "project-image" src={image} alt=" Not Found" />
         </div>
 
         <div className="pro-right">

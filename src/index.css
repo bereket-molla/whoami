@@ -20,11 +20,14 @@ body {
   font-style: normal;
   font-weight: 400; 
   background-color: var(--background);
+  /* min-width: 375px; */
   
   
 }
 html{
   position: relative;
+  /* min-width: 375px; */
+  
 }
 
 
@@ -47,4 +50,16 @@ html{
   align-items: center;
   height: 100vh;
 
+}
+
+
+
+
+@media only screen and (max-width: 720px ) {
+  .wrapper {
+      width: 100%;
+  }
+  
+
+  
 }

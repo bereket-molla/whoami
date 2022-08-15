@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 import { useState } from 'react';
+
 import './Style.css'
 
 
@@ -23,7 +24,7 @@ export default function Header() {
     function conditionalText(linkString){ 
       if(linkString === 'whoami'){ 
         smallerText = `ሰላም <span>👋</span>  I am`
-        biggerText = "Bereket Molla"
+        biggerText = "Bereket·Molla"
     
       }
       else if(linkString === 'projects'){ 
@@ -38,7 +39,7 @@ export default function Header() {
       }
       else if(linkString === 'blogs'){ 
         smallerText = `This site is under construction. 🔨🛠`
-        biggerText = "Coming soon"
+        biggerText = "Coming·soon"
 
       }
       else{ 
@@ -57,8 +58,12 @@ export default function Header() {
             <Link className = "links" onClick={() => changeText('whoami')} to="whoami">{"{"}<span>whoami</span>{"}"}</Link>
             <Link className = "links" onClick={() => changeText('projects')} to="projects">{"{"}<span>projects</span>{"}"}</Link>
             <Link className = "links" onClick={() => changeText('resume')} to="resume">{"{"}<span>resume</span>{"}"}</Link>
+      
+             {/* <span className = "menu-icon">Menu</span> */}
             {/* <Link className = "links" onClick={() => changeText('blogs')} to="blogs">{"{"}<span>blogs</span>{"}"}</Link> */}
         </div>
+       
+       
     </div>
   )
 }
