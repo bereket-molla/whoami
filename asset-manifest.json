@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/whoami/static/css/main.0d96e734.css",
-    "main.js": "/whoami/static/js/main.93aabbdc.js",
-    "static/media/memeImageSecond.svg": "/whoami/static/media/memeImageSecond.201cf4260d863d9ed173a2122d83371e.svg",
-    "static/media/Github.svg": "/whoami/static/media/Github.c1eab485390eeefe6567cde66c8a3584.svg",
-    "static/media/akar-icons_twitter-fill.svg": "/whoami/static/media/akar-icons_twitter-fill.eca54556fe5270fafef46b1afb69e8d0.svg",
-    "index.html": "/whoami/index.html",
-    "static/media/Gmail.svg": "/whoami/static/media/Gmail.853da34a5c4f090a615846027a4d5eb5.svg",
-    "main.0d96e734.css.map": "/whoami/static/css/main.0d96e734.css.map",
-    "main.93aabbdc.js.map": "/whoami/static/js/main.93aabbdc.js.map"
+    "main.css": "/static/css/main.0d96e734.css",
+    "main.js": "/static/js/main.e4b89c36.js",
+    "static/media/memeImageSecond.svg": "/static/media/memeImageSecond.201cf4260d863d9ed173a2122d83371e.svg",
+    "static/media/Github.svg": "/static/media/Github.c1eab485390eeefe6567cde66c8a3584.svg",
+    "static/media/akar-icons_twitter-fill.svg": "/static/media/akar-icons_twitter-fill.eca54556fe5270fafef46b1afb69e8d0.svg",
+    "index.html": "/index.html",
+    "static/media/Gmail.svg": "/static/media/Gmail.853da34a5c4f090a615846027a4d5eb5.svg",
+    "main.0d96e734.css.map": "/static/css/main.0d96e734.css.map",
+    "main.e4b89c36.js.map": "/static/js/main.e4b89c36.js.map"
   },
   "entrypoints": [
     "static/css/main.0d96e734.css",
-    "static/js/main.93aabbdc.js"
+    "static/js/main.e4b89c36.js"
   ]
 }
