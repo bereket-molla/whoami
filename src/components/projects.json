@@ -1,36 +1,53 @@
 {
     "projects": [
         {
+            "title" : "hackvest",
+            "image": "../images/git-in-terminal.png",
+            "discription" : "hackvest is a <span>machine learning</span> based virtual farmer assistant.It is mainly an image based plant disease prediction app which is trained using the <span>plant village dataset </span>. <span>pytorch</span> is used in the <span>flask backend</span> that serves as an api for image recognition.  It also has features including predictions based on variables such as temperature, humidity,  and many more. I used the <span>openweathermap’s</span> api to collect the data. It is made at BDU STEM Highschool, so no code can be made public, but I am allowed to share the following video",
+            "liveDemo": "https://youtu.be/ZYvzPDISJmo", 
+            "githubLink": "",
+            "techs": ["pytorch", "flask", "react", "python", "firebase"]
+        }, 
+        {
+            "title" : "swip3",
+            "image": "../images/git-in-terminal.png",
+            "discription" : "<span>Spring 2022  NYC Lion DAO Crypto Hackathon</span> ( 3rd🏆  Place ) <br/> Project By: Hileamlak, Matt, and Bereket <br/> E-commerce microtransactions of goods and services have started using cryptocurrencies.  And when this happens there will be the need for a <span>web3</span> equivalent of <span>credit cards</span> (per payment loans). We introduce Swip3, your web3 credit card, providing per-payment loans in the palm of your hands. With our <span>extension</span> and <span>developer API</span>, users can easily leverage crypto and pay directly on DApps with their Swip3 cards.",
+            "liveDemo": "https://devpost.com/software/swip3", 
+            "githubLink": "https://devpost.com/software/swip3",
+            "techs": ["brownie", "ganache", "python", "react",  "solidity"]
+        },
+        {
             "title" : "verxion",
             "image": "../images/verxionImage.png",
-            "discription" : "This is a simple program that is written as an experiment to reimplement the basic features of git with the intentions of understanding git-internals. verxion works like a containing folder that is used to hold projects people are working on. Files of the projects are simply added in the main(root) folder of the project and the program will be able to track multiple versions of a program.",
+            "discription" : "verxion is a reimplementation of the <span>Git</span> version control system. I made this mainly to be able to understand how the underlying data structure - <span> merkle tree </span> - in famous technologies like Git and <span> blockchains </span> work. It is fully written in Java, and this program was written before I took my university's data structures course. Most of the basic features found in Git are implemented in this program.",
             "liveDemo": "", 
             "githubLink": "https://github.com/bereket-molla/verxion",
-            "techs": ["java", "css"]
+            "techs": ["java"]
         }, 
         {
             "title" : "Columbia  Course Rating",
             "image": "../images/git-in-terminal.png",
-            "discription" : "",
+            "discription" : "columbia university course rating is a <span>chrome extension</span> I made to give columbia university students easy access to course information during registration season. There are several websites built by the university and previous students that give a specific category of information like course rating. This extension brings important details from those websites using <span>web scraping</span> and puts them together as one, in the extension. I used <span>puppeteer</span> for web scraping.",
             "liveDemo": "", 
-            "githubLink": "",
-            "techs": ["javascript", "html", "css", "react"]
-        }, 
+            "githubLink": "https://github.com/bereket-molla/cu-course-rating",
+            "techs": ["javascript","react", "html", "css" ]
+        },
         {
-            "title" : "",
+            "title" : "Personal Website",
             "image": "../images/git-in-terminal.png",
-            "discription" : "",
+            "discription" : "This is the personal website that you are looking at right now. It is still under development. I will have many more features in the future. The design <span>figma</span> file is found in the link under. Feel free to clone any part of the design, but make sure to hit me up. 😉 ",
             "liveDemo": "", 
-            "githubLink": "",
-            "techs": ["javascript", "html", "css", "react"]
-        }, 
+            "githubLink": "https://github.com/bereket-molla/is",
+            "techs": ["javascript","react", "html", "css" ]
+        },
         {
-            "title" : "",
+            "title" : "Dijkstra Visual",
             "image": "../images/git-in-terminal.png",
-            "discription" : "",
+            "discription" : "Dijkstra visual: This was a final assignment for <span>COMS 3134 (Data Structures in Java ) </span> course at Columbia University. It is an implementation of <span>Dijsktra’s Algorithm</span> that includes a prewritten implementation of a graphical user interface that helps us visualize the shortest path between multiple cities. ",
             "liveDemo": "", 
-            "githubLink": "",
-            "techs": ["javascript", "html", "css", "react"]
+            "githubLink": "https://github.com/bereket-molla/Dijkstra-Visual",
+            "techs": ["java" ]
         }
+        
     ]
 }

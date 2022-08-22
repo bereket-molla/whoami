@@ -1,5 +1,6 @@
 import React from 'react'
 import resume from './resume.json'
+import parse from "html-react-parser";
 
 export default function Resume() {
   console.log(resume.education)
@@ -11,14 +12,15 @@ export default function Resume() {
             
             // console.log(value.title)
             return <div className="resume-comp">
+                   
                     <div className="resume-left">
-                      <p className = "res-title" >{value[0]}</p>
+                      <p className = "res-title" >{parse(value[0])}</p>
                     </div>
                     <div className="resume-right">
                       {
                       Object.values(value.slice(1)).map((text, index ) => {
-
-                        return  <p key = {index} className = {text[0]}>{text.slice(2,)}</p>
+                        let val = text.slice(2).toString()
+                        return  <p key = {index} className = {text[0]}>{parse(val)}</p>
                         
                       })
                      }

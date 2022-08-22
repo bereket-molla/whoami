@@ -22,7 +22,7 @@ export default function Header() {
     }
 
     function conditionalText(linkString){ 
-      if(linkString === 'whoami'){ 
+      if(linkString === 'whoami' || linkString === ""){ 
         smallerText = `ሰላም <span>👋</span>  I am`
         biggerText = "Bereket·Molla"
     
@@ -50,6 +50,7 @@ export default function Header() {
 
   return (
     <div className="header wrapper">
+      
         <div className="intro">
             <p className="smaller">{parse(dis[0])}</p>
             <p className="bigger">{dis[1]}</p>
