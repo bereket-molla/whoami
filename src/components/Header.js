@@ -43,7 +43,8 @@ export default function Header() {
 
       }
       else{ 
-        biggerText = "I am sorry"
+        smallerText = `ሰላም <span>👋</span>  I am`
+        biggerText = "Bereket·Molla"
       }
    
   }
