@@ -18,11 +18,9 @@ function App() {
       
       <div className="main-container wrapper ">
         <Routes>
-        <Route path="whoami" element={ <WhoAmI/> } />
-        <Route path="/" element={ <WhoAmI/> } />
         <Route path="projects" element={ <Projects/> } />
-        <Route path="resume" element={ <Resume/> } />
-        <Route path="blogs" element={ <Blogs/> } />
+        <Route path="whoami" element={ <WhoAmI/> } />
+        <Route path="resume" element={ <Resume/> } /> 
         <Route path="*" element={ <PageNotFound/> } />
       </Routes>
       

@@ -9,7 +9,7 @@ export default function WhoAmI() {
                 <p>public String <span>{"whoami(){"}</span></p>
                 <div className="code-inner">
                 <p>{"// root"}</p>
-                <p> <span>return </span> " Sophomore <span className = "cu">@Columbia University</span> <br />{"    studying"} <span className = "cs">Computer Science"</span> <span>;</span>
+                <p> <span>return </span> " Senior <span className = "cu">@Columbia University</span> <br />{"    studying"} <span className = "cs">Computer Science"</span> <span>;</span>
                 </p>
                 </div>
             <p><span>{"}"}</span></p>

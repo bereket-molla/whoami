@@ -25,11 +25,7 @@ export default function Slider({data}) {
 
   return (
       <div className="main" data-aos = "fade-up">
-        <div className="pro-left">
-            {/* <img className = "project-image" src={image} alt=" Not Found" /> */}
-        </div>
-
-        <div className="pro-right">
+               <div className="pro-right">
             <p className="pro-title">{title}</p>
             <div className="pro-tech">
                 {

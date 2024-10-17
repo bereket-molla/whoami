@@ -21,7 +21,6 @@ export default function Resume() {
                       Object.values(value.slice(1)).map((text, index ) => {
                         let val = text.slice(2).toString()
                         return  <p key = {index} className = {text[0]}>{parse(val)}</p>
-                        
                       })
                      }
                     </div>

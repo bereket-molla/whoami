@@ -1,53 +1,69 @@
 {
     "projects": [
         {
-            "title" : "hackvest",
+            "title" : "Distributed Key-Value Store",
             "image": "../images/git-in-terminal.png",
-            "discription" : "hackvest is a <span>machine learning</span> based virtual farmer assistant.It is mainly an image based plant disease prediction app which is trained using the <span>plant village dataset </span>. <span>pytorch</span> is used in the <span>flask backend</span> that serves as an api for image recognition.  It also has features including predictions based on variables such as temperature, humidity,  and many more. I used the <span>openweathermap’s</span> api to collect the data. It is made at BDU STEM Highschool, so no code can be made public, but I am allowed to share the following video",
+            "discription" : "Developed a distributed, fault-tolerant <span>key-value store</span> using <span>Go</span>, implementing concepts like replication and sharding to ensure availability and consistency. Optimized for low-latency data access.",
+            "liveDemo": "", 
+            "githubLink": "",
+            "techs": ["go", "distributed systems", "replication", "sharding"]
+        },
+        {
+            "title" : "Parallelized Simplex Algorithm using Haskell",
+            "image": "../images/git-in-terminal.png",
+            "discription" : "Developed a parallelized version of the <span>Simplex Algorithm</span> using <span>Haskell</span> for solving large-scale linear programming problems. Leveraged Haskell’s concurrency features to speed up the computation for large datasets.",
+            "liveDemo": "", 
+            "githubLink": "https://github.com/bereket-molla/parallelizedSimplex",
+            "techs": ["haskell", "parallel computing", "linear programming"]
+        },
+        
+        {
+            "title" : "Hackvest",
+            "image": "../images/git-in-terminal.png",
+            "discription" : "Hackvest is a <span>machine learning</span> based virtual farmer assistant. It is primarily an image-based plant disease prediction app trained using the <span>plant village dataset</span>. <span>Pytorch</span> is used in the <span>Flask backend</span> that serves as an API for image recognition. Additional features include predictions based on variables such as temperature and humidity using the <span>OpenWeatherMap API</span>. Built at BDU STEM Highschool.",
             "liveDemo": "https://youtu.be/ZYvzPDISJmo", 
             "githubLink": "",
             "techs": ["pytorch", "flask", "react", "python", "firebase"]
         }, 
         {
-            "title" : "swip3",
+            "title" : "Swip3",
             "image": "../images/git-in-terminal.png",
-            "discription" : "<span>Spring 2022  NYC Lion DAO Crypto Hackathon</span> ( 3rd🏆  Place ) <br/> Project By: Hileamlak, Matt, and Bereket <br/> E-commerce microtransactions of goods and services have started using cryptocurrencies.  And when this happens there will be the need for a <span>web3</span> equivalent of <span>credit cards</span> (per payment loans). We introduce Swip3, your web3 credit card, providing per-payment loans in the palm of your hands. With our <span>extension</span> and <span>developer API</span>, users can easily leverage crypto and pay directly on DApps with their Swip3 cards.",
+            "discription" : "<span>Spring 2022 NYC Lion DAO Crypto Hackathon</span> (3rd🏆 Place) <br/> Project By: Hileamlak, Matt, and Bereket <br/> E-commerce microtransactions are shifting to cryptocurrencies, and Swip3 introduces a <span>Web3 credit card</span>, offering per-payment loans. Users can leverage crypto for DApp payments with Swip3's <span>extension</span> and <span>developer API</span>.",
             "liveDemo": "https://devpost.com/software/swip3", 
             "githubLink": "https://devpost.com/software/swip3",
-            "techs": ["brownie", "ganache", "python", "react",  "solidity"]
+            "techs": ["brownie", "ganache", "python", "react", "solidity"]
         },
         {
-            "title" : "verxion",
+            "title" : "Verxion",
             "image": "../images/verxionImage.png",
-            "discription" : "verxion is a reimplementation of the <span>Git</span> version control system. I made this mainly to be able to understand how the underlying data structure - <span> merkle tree </span> - in famous technologies like Git and <span> blockchains </span> work. It is fully written in Java, and this program was written before I took my university's data structures course. Most of the basic features found in Git are implemented in this program.",
+            "discription" : "Verxion is a reimplementation of the <span>Git</span> version control system. The project was built to understand the underlying data structure - <span>merkle tree</span> - in technologies like Git and <span>blockchains</span>. Written in Java, it includes many of the basic features found in Git.",
             "liveDemo": "", 
             "githubLink": "https://github.com/bereket-molla/verxion",
             "techs": ["java"]
         }, 
         {
-            "title" : "Columbia  Course Rating",
+            "title" : "Columbia Course Rating",
             "image": "../images/git-in-terminal.png",
-            "discription" : "columbia university course rating is a <span>chrome extension</span> I made to give columbia university students easy access to course information during registration season. There are several websites built by the university and previous students that give a specific category of information like course rating. This extension brings important details from those websites using <span>web scraping</span> and puts them together as one, in the extension. I used <span>puppeteer</span> for web scraping.",
+            "discription" : "Columbia University Course Rating is a <span>chrome extension</span> that provides students easy access to course information during registration. This extension aggregates important details from multiple university websites using <span>web scraping</span> and displays them in a user-friendly interface. Built using <span>Puppeteer</span> for scraping.",
             "liveDemo": "", 
             "githubLink": "https://github.com/bereket-molla/cu-course-rating",
-            "techs": ["javascript","react", "html", "css" ]
+            "techs": ["javascript", "react", "html", "css"]
         },
         {
             "title" : "Personal Website",
             "image": "../images/git-in-terminal.png",
-            "discription" : "This is the personal website that you are looking at right now. It is still under development. I will have many more features in the future. The design <span>figma</span> file is found in the link under. Feel free to clone any part of the design, but make sure to hit me up. 😉 ",
+            "discription" : "This is the personal website that you are viewing right now. It is still under development, with many features coming in the future. The design <span>Figma</span> file is also linked below. Feel free to clone any part of the design, but please reach out! 😉",
             "liveDemo": "", 
             "githubLink": "https://github.com/bereket-molla/is",
-            "techs": ["javascript","react", "html", "css" ]
+            "techs": ["javascript", "react", "html", "css"]
         },
         {
             "title" : "Dijkstra Visual",
             "image": "../images/git-in-terminal.png",
-            "discription" : "Dijkstra visual: This was a final assignment for <span>COMS 3134 (Data Structures in Java ) </span> course at Columbia University. It is an implementation of <span>Dijsktra’s Algorithm</span> that includes a prewritten implementation of a graphical user interface that helps us visualize the shortest path between multiple cities. ",
+            "discription" : "Dijkstra Visual was a final assignment for <span>COMS 3134 (Data Structures in Java)</span> at Columbia University. It implements <span>Dijkstra’s Algorithm</span> and includes a graphical user interface to visualize the shortest path between multiple cities.",
             "liveDemo": "", 
             "githubLink": "https://github.com/bereket-molla/Dijkstra-Visual",
-            "techs": ["java" ]
+            "techs": ["java"]
         }
-        
     ]
 }

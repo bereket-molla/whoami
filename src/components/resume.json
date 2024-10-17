@@ -1,51 +1,60 @@
 {
-    "education": ["education", 
-                "n:<a href ='https://www.columbia.edu/'>Columbia University</a>",  
-                  "n:Computer Science and Math", 
-                  "n:Major GPA: 4.0 , Overall GPA: 3.845 ",
-                  "s:Relevant Course Work(includes fall 2022)",
-                  "l:Data·Structures ", "l:Analysis·of·Algorithms ", "l:Fundamentals·of·Computing·Systems ",  "l:Advanced·Programming(C·and·Unix) ","l:Linear·Algebra·and·Probability ", "l:Multivariable·Calculus ",
-                  "s:Expected Year of Graduation: 2025"
-            ],
+  "education": [
+      "education", 
+      "n:<a href ='https://www.columbia.edu/'>Columbia University</a>",  
+      "n:Computer Science", 
+      "s:Relevant Coursework: ",
+      "l:Distributed Systems", "l:Operating Systems", "l:Analysis of Algorithms", "l:Advanced Programming (C and Unix)", "l:Linear Algebra and Probability", "l:Multivariable Calculus",
+      "s:Expected Year of Graduation: 2025"
+  ],
 
-    "experience": ["experience",
-                "d:<a href ='https://jamcoders.org.jm/#team'>JamCoders</a>", 
-                "a:−Teaching Staff", 
-                "l:Summer 2022 −  Kingston , Jamaica   🇯🇲",
-                "_: I was selected to be a teaching assitant for an intense summer coding camp in Jamaica 🇯🇲.",
-                "s: → Taught accelerated algorithms theory and Python coding 5 days a week to 50 students holding lab for 5 hours/day",
-                "s: → Collaborated with lecturers from <span> Microsoft, Harvard, Berkeley, and Google </span> to generate comprehension exercises and exams.",
-                "s: → Was part of the big-sibling program, in which I had 6 small-siblings to mentor <br/>  <hr/> <br/> <br/> ",
-                 
-                "d:<a href ='https://www.ctpethiopia.com/'>CTP Ethiopia</a>", 
-                "a:−Board Member , Software Engineer", 
-                "l: Nov 2021- Present,  NYC, NY",
-                "_: Aiming to create an easy to access mentorship-platform for students in Ethiopia mainly going through the college applications process, CTP was founded in 2011 by Columbia University Students.",
-                "s: → As of spring 2022, in charge of designing the team website, and teaching platform.",
-                "s: → Currently rebuilding the website for the organization in collaboration with other tech team members <br/>  <hr/> <br/> <br/> ",
-                
-                "d:Amercian Embassy", 
-                "a:−Intern - Non Technial", 
-                "l: Feb-May 2020,  Bahir Dar, Ethiopia",
-                "s: → Gave comprehensive traning for 30 selected students(nation-wide) about the USA College Application Process.<br/>  <hr/> <br/> <br/> ",
-                
+  "experience": [
+      "experience",
+      "d:<a href ='https://www.amazon.com/'>Amazon</a>", 
+      "a:−Software Development Intern", 
+      "l:May 2024 - Aug 2024, Bellevue, WA",
+      "s: → Worked in the ATROPS (Adaptive Transportation Optimization Service) team, building a self-service tool for updating graph configurations.",
+      "s: → Developed full-stack features using Java, React, and AWS to support transportation network optimizations.<br/><br/><br/>",
 
-                "d: iCog Labs ", 
-                "a:  - Coding and Robotics", 
-                "l: April  2019- Nov 2020,  Addis Ababa, Ethiopia",
-                "_: iCog Labs is the only AI Research company in Ethiopia, and was in charge of developing about 60% of Sophia the robot",
-                "s: →Took part in 6 months -long robotics mentorship from engineers at iCog labs",
-                "s: → Worked in a team that was able to compete at the national  RoboSoccer Cup Competition in 2019- making us the only high school contestants among teams of college students. <br/>  <hr/> <br/> <br/> "
-                
-          ], 
-          "award ": ["Awards", 
-            "s: New York City Blockchain Hackathon for Cryto Developers: 3rd Place <br/>", 
-              "n:", 
-              "s: iCog Robo Soccer Cup 2019 -National",
-              "s: AddisCoder 2019, Top 2% -National"
-              
-        ]
+      "d:<a href ='https://www.amazon.com/'>Amazon</a>", 
+      "a:−Software Development Intern", 
+      "l:May 2023 - Aug 2023, Bellevue, WA",
+      "s: → Developed and optimized a Kotlin-based data pipeline for Amazon's Global Fulfillment Optimization system.",
+      "s: → Utilized AWS services (Lambda, S3, Kinesis) to streamline data processing for faster fulfillment operations.<br/><br/><br/>",
+
+      "d:<a href ='https://jamcoders.org.jm/#team'>JamCoders</a>", 
+      "a:−Teaching Staff", 
+      "l:Summer 2022 − Kingston, Jamaica 🇯🇲",
+      "s: Selected as a teaching assistant for an intensive summer coding camp in Jamaica 🇯🇲.",
+      "s: → Taught accelerated algorithms and Python programming to 50 top-performing students in daily 5-hour lab sessions.",
+      "s: → Collaborated with lecturers from <span>Microsoft, Harvard, Berkeley, and Google</span> to design comprehension exercises and exams.",
+      "s: → Mentored 6 students through the big-sibling program, providing individual guidance and support.<br/><br/><br/>",
+
+      "d:<a href ='https://www.ctpethiopia.com/'>CTP Ethiopia</a>", 
+      "a:−Board Member, Software Engineer", 
+      "l:Nov 2021 - Present, NYC, NY",
+      "s: Working with CTP, an organization founded by Columbia University students to provide mentorship for Ethiopian students navigating the college application process.",
+      "s: → Responsible for designing the team website and educational platform as of Spring 2022.",
+      "s: → Currently leading the rebuild of the organization's website in collaboration with other tech team members.<br/><br/><br/>",
+
       
+      "d:American Embassy", 
+      "a:−Intern (Non-Technical)", 
+      "l:Feb - May 2020, Bahir Dar, Ethiopia",
+      "s: → Provided comprehensive training to 30 selected students across Ethiopia on the U.S. college application process.<br/><br/><br/>",
 
-          
+      "d:iCog Labs", 
+      "a:−Coding and Robotics", 
+      "l:April 2019 - Nov 2020, Addis Ababa, Ethiopia",
+      "s: iCog Labs is Ethiopia's only AI research company, known for its contributions to Sophia the robot.",
+      "s: → Completed a 6-month robotics mentorship program with engineers at iCog Labs.",
+      "s: → Competed in the 2019 RoboSoccer Cup as part of the only high school team, competing against university teams at the national level.<br/><br/><br/>"
+  ], 
+  
+  "award": [
+      "Awards", 
+      "s:New York City Blockchain Hackathon for Crypto Developers: 3rd Place", 
+      "s:iCog Robo Soccer Cup 2019 - National Champion",
+      "s:AddisCoder 2019, Top 2% - National"
+  ]
 }
